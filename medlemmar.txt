@@ -1,0 +1,39 @@
+  {
+    "_id": {
+        "$oid": "62358e189761d347a611725c"
+    },
+    "participants": [{
+        "id": {
+            "$numberInt": "1"
+        },
+        "name": "Name 1",
+        "wins": {
+            "$numberInt": "4"
+        },
+        "losses": {
+            "$numberInt": "0"
+        }
+    }, {
+        "id": {
+            "$numberInt": "2"
+        },
+        "name": "Name 2",
+        "wins": {
+            "$numberInt": "2"
+        },
+        "losses": {
+            "$numberInt": "2"
+        }
+    }, {
+        "id": {
+            "$numberInt": "3"
+        },
+        "name": "Name 3",
+        "wins": {
+            "$numberInt": "1"
+        },
+        "losses": {
+            "$numberInt": "2"
+        }
+    }]
+}

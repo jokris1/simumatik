@@ -1,0 +1,66 @@
+@import-normalize;
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    user-select: none; /* prevent text selection for double-click */
+}
+
+a, button {
+    cursor: pointer;
+}
+
+button {
+    border: 2px solid black;
+    background-color: white;
+}
+
+.btnGreen {
+    background-color: #008800;
+    color: #eee;
+}
+
+.btnRed {
+    border: 2px solid darkred;
+}
+
+.box {
+    position: fixed;
+    text-align: center;
+    background-color: white;
+    padding: 0.4rem;
+    top: 25%;
+    left: 50%;
+    width: 20rem;
+    z-index: 1000;
+    visibility: hidden;
+    border: 2px solid black;
+}
+
+.box button {
+    padding: 0.2rem 1rem;
+}
+
+@media screen and (min-width: 320px) {
+    body {
+        /* background-color: green; */
+    }
+}
+@media screen and (min-width: 550px) {
+    body {
+        /* background-color: yellow; */
+    }
+}
+@media screen and (min-width: 768px) {
+    body {
+        /* background-color: orange; */
+    }
+}
+@media screen and (min-width: 960px) {
+    body {
+        /* background-color: red; */
+    }
+}
+

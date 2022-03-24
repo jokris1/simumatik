@@ -1,0 +1,21 @@
+.BoxName {
+    text-align: right;
+}
+
+.BoxName a {
+    color: darkred;
+    font-size: 1.5rem;
+}
+
+.BoxName form {
+    text-align: center;
+}
+
+.BoxName form input {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 50%;
+    padding: 0.5rem 1rem;
+}
+    
+

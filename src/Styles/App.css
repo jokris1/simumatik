@@ -1,0 +1,34 @@
+.App {
+    display: grid;
+    height: 100vh; /* 100% of available/viewport height */
+
+    /* grid-template-areas not working */
+    grid-template-columns: 0.2fr auto 0.2fr;
+    grid-template-rows: 6rem 10rem auto auto;
+}
+
+.Logo {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+
+.Participants {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.Header {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.AsideLeft {
+    grid-column: 1 / 2;
+    grid-row-start: 2;
+    grid-row-end: span 3;
+}
+
+.AsideRight {
+    grid-column: 3 / 4;
+    grid-row: 2 / 5;
+}

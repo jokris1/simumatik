@@ -1,0 +1,10 @@
+.Header {
+    display: flex;
+    align-items: center; /* vertical center */
+    justify-content: space-evenly;
+
+}
+
+.Header h1 {
+    font-weight: normal;
+}
