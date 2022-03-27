@@ -13,6 +13,7 @@ An internet connection is required in order to connect to the database. To setup
 
 ## Future improvements
 
+-   Making use of TypeScript for autocompletion and error catching while compiling
 -   SCSS instead of CSS for more structured styling
 -   Context or Redux for better props management
 -   Media queries for responsive web design
